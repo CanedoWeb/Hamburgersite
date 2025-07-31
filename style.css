@@ -14,7 +14,7 @@
 body{
     max-width: 1920px;
     margin: 0 auto; 
-    background-image: url(/assets/img/fundo.jpg);
+    background-image: url(assets/img/fundo.jpg);
     background-size: cover;
     background-position: top, center;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@ header{
 .banner{
     width: 100%;
     padding-left: 60px;
-    background-image: url('img/image 7.png');
+    background-image: url('assets/img/image\ 7.png');
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -194,7 +194,7 @@ header{
 
 
 .fim{
-    background-image: url('img/still-life-delicious-american-hamburger\ 1.png');
+    background-image: url('assets/img/still-life-delicious-american-hamburger\ 1.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 700px;
