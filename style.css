@@ -184,6 +184,7 @@ header {
 }
 
 .txt-sobre h2 {
+    text-align: center;
     font-family: "Anton SC", sans-serif;
     font-size: 78px;
     color: white;
