@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Grelha Urbana</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .anton-sc-regular {
+        font-family: "Anton SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+        background-image: url(../assets/img/fundo.jpg);
+        background-size: cover;
+        background-position: top, center;
+        background-repeat: no-repeat;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .destaques {
+        padding-left: 60px;
+        padding-right: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .destaques .img-destaque,
+    .cardapio .img-cardapio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .destaques .img-destaque div,
+    .cardapio .img-cardapio div {
+        text-align: center;
+    }
+
+    .destaques .txt-destaque h2 {
+        font-size: 78px;
+        font-family: 'Anton SC', sans-serif;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .destaques .txt-destaque h2 span {
+        color: #FFB800;
+    }
+
+    .img-destaque {
+        gap: 40px;
+        margin: 60px 0 60px 0;
+    }
+
+    .img-destaque img {
+        width: 400px;
+        height: auto;
+    }
+
+    .img-destaque img:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+    .img-destaque div p {
+        font-size: 24px;
+        font-family: 'Anton SC', sans-serif;
+        color: white;
+    }
+
+    .cardapio {
+        margin-top: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cardapio .txt-cardapio h2 {
+        font-size: 78px;
+        font-family: 'Anton SC', sans-serif;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .cardapio .txt-cardapio h2 span {
+        color: #FFB800;
+    }
+
+    .cardapio .img-cardapio {
+        gap: 40px;
+        margin: 60px 0 60px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cardapio .img-cardapio img {
+        width: 400px;
+        height: auto;
+    }
+
+    .cardapio .img-cardapio img:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+    .cardapio .img-cardapio div p {
+        font-size: 24px;
+        font-family: 'Anton SC', sans-serif;
+        color: white;
+    }
+</style>
+
+<body>
+    <header>
+        <img src="assets/img/image 8.png" alt="" class="logo">
+    </header>
+    <main>
+        <div class="destaques">
+            <div class="txt-destaque">
+                <h2><span>Destaques</span> do Mês</h2>
+            </div>
+            <div class="img-destaque">
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 12.png" alt="">
+                        <p>Duplo Bacon</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 13.png" alt="">
+                        <p>Catupiry</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 14.png" alt="">
+                        <p>Sete Queijos</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardapio">
+            <div class="txt-cardapio">
+                <h2><span>Cardápio</span></h2>
+            </div>
+            <div class="img-cardapio">
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image-1.png" alt="">
+                        <p>Duplo Bacon</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image-2.png" alt="">
+                        <p>Catupiry</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image.png" alt="">
+                        <p>Sete Queijos</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 12.png" alt="">
+                        <p>Duplo Bacon</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 13.png" alt="">
+                        <p>Catupiry</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 14.png" alt="">
+                        <p>Sete Queijos</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image-1.png" alt="">
+                        <p>Duplo Bacon</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image-2.png" alt="">
+                        <p>Catupiry</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="error.html">
+                        <img src="../assets/img/image 12.png" alt="">
+                        <p>Duplo Bacon</p>
+                    </a>
+                </div>
+            </div>
+            <div class="botao-destaque">
+                <button><a href="assets/cardapio.html"><img src="assets/img/Group 10.png" alt=""></a></button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
