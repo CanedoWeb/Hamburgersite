@@ -152,7 +152,7 @@ header {
 
 .img-destaque img:hover {
     cursor: pointer;
-    
+
     transform: scale(1.05);
 }
 
@@ -274,7 +274,7 @@ p.cnpj {
 
 @media (min-width: 1201px) and (max-width: 1400px) {
     .banner {
-        background-image: url('img/image 7 - Copia.png');
+        background-image: url('assets/img/image\ 7\ -\ Copia.png');
     }
 
     .destaques img {
@@ -284,7 +284,7 @@ p.cnpj {
 
 @media (min-width: 574px) and (max-width: 1200px) {
     .banner {
-        background-image: url('img/mobileburguer.png');
+        background-image: url('assets/img/mobileburguer.png');
         padding-left: 5px;
     }
 
@@ -338,7 +338,7 @@ p.cnpj {
 
     .fim {
         height: auto;
-        background-image: url('img/fimmobile.png');
+        background-image: url('assets/img/fimmobile.png');
         background-size: cover;
         background-position: top;
         display: flex;
@@ -373,7 +373,8 @@ p.cnpj {
 @media (min-width:350px) and (max-width: 573px) {
     .banner {
         padding-left: 10px;
-        background-image: url('img/mobileburguer.png');
+        background-image: url('assets/img/mobileburguer.png');
+
         background-size: 200px;
         padding-bottom: 50px;
     }
@@ -463,7 +464,7 @@ p.cnpj {
 
     .fim {
         height: auto;
-        background-image: url('img/fimmobile.png');
+        background-image: url('assets/img/fimmobile.png');
         background-size: cover;
         background-position: top;
         display: flex;
