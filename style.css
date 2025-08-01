@@ -152,6 +152,7 @@ header {
 
 .img-destaque img:hover {
     cursor: pointer;
+    
     transform: scale(1.05);
 }
 
