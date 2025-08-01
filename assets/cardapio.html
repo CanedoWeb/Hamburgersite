@@ -134,6 +134,35 @@
         font-family: 'Anton SC', sans-serif;
         color: white;
     }
+
+    @media (max-width: 1200px) {
+    .img-destaque img,
+    .cardapio .img-cardapio img {
+        width: 200px;
+    }
+
+    
+}
+
+@media (max-width: 700px) {
+    .destaques .img-destaque{
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .cardapio .img-cardapio {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .img-destaque img,
+    .cardapio .img-cardapio img {
+        width: 180px;
+    }
+
+    .destaques .txt-destaque h2,
+    .cardapio .txt-cardapio h2 {
+        font-size: 48px;
+    }
+}
 </style>
 
 <body>
