@@ -32,7 +32,7 @@
         background-repeat: no-repeat;
     }
 
-    a{
+    a {
         text-decoration: none;
     }
 
@@ -135,34 +135,95 @@
         color: white;
     }
 
+    footer {
+            background-color: rgba(0, 0, 0, 0.273);
+            backdrop-filter: blur(3px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+            padding-bottom: 20px;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 100px 0px 100px;
+            gap: 60px;
+        }
+
+        .footer img {
+            width: 70px;
+        }
+
+        .footer address,
+        a,
+        p {
+            font-family: "Anton SC", sans-serif;
+            font-size: 15px;
+            color: white;
+        }
+
+        p.cnpj {
+            font-size: 10px;
+
+        }
+
     @media (max-width: 1200px) {
-    .img-destaque img,
-    .cardapio .img-cardapio img {
-        width: 200px;
+
+        .img-destaque img,
+        .cardapio .img-cardapio img {
+            width: 200px;
+        }
+
+
+        
+
     }
 
-    
-}
 
-@media (max-width: 700px) {
-    .destaques .img-destaque{
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    .cardapio .img-cardapio {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-    }
-    .img-destaque img,
-    .cardapio .img-cardapio img {
-        width: 180px;
-    }
 
-    .destaques .txt-destaque h2,
-    .cardapio .txt-cardapio h2 {
-        font-size: 48px;
+    @media (max-width: 700px) {
+
+        .destaques .img-destaque {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        .cardapio .img-cardapio {
+            padding: 0 10px;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .img-destaque img,
+        .cardapio .img-cardapio img {
+            width: 180px;
+        }
+
+        .destaques .txt-destaque h2,
+        .cardapio .txt-cardapio h2 {
+            font-size: 48px;
+        }
+
+        .footer {
+            gap: 20px;
+            flex-direction: column;
+        }
+
+        .footer address,
+        a,
+        p {
+            font-weight: 100;
+            text-align: center;
+        }
+
+        p.cnpj {
+            font-weight: 100;
+        }
     }
-}
 </style>
 
 <body>
@@ -256,11 +317,17 @@
                     </a>
                 </div>
             </div>
-            <div class="botao-destaque">
-                <button><a href="assets/cardapio.html"><img src="assets/img/Group 10.png" alt=""></a></button>
-            </div>
         </div>
     </main>
+    <footer>
+        <div class="footer">
+            <img src="img/image 8.png" alt="">
+            <address>Rua das Palmeiras, 1185 - Centro, São Bento do<br> Sul - SC, 89290-000</address>
+            <a href="tel:+55 (23)9999-9999"><span>(23)9999-9999</span></a>
+            <p>Horário de funcionamento:<br>das 10h às 24h</p>
+        </div>
+        <p class="cnpj">CNPJ: 00.123.456/0001-89</p>
+    </footer>
 </body>
 
 </html>
